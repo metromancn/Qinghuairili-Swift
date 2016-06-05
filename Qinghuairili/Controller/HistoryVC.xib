@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HistoryVC" customModule="Qinghuairili" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_flower.png" translatesAutoresizingMaskIntoConstraints="NO" id="8fa-3s-DxG">
+                    <rect key="frame" x="0.0" y="100" width="600" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="IZy-YI-2y2"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快去制作日历" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ort-Pf-cYT">
+                    <rect key="frame" x="0.0" y="210" width="600" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="gVT-OL-9OF"/>
+                        <constraint firstAttribute="height" constant="22" id="rCw-zM-lbO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gVT-OL-9OF"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您还没有任何回忆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaI-H4-3DG">
+                    <rect key="frame" x="0.0" y="186" width="600" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Kc3-LC-MKg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ort-Pf-cYT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="210" id="2ge-4Q-Nrf"/>
+                <constraint firstItem="8fa-3s-DxG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="7IW-my-qT2"/>
+                <constraint firstItem="ort-Pf-cYT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="220" id="R5F-qu-XhO"/>
+                <constraint firstItem="ort-Pf-cYT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aZM-Gt-1dL"/>
+                <constraint firstAttribute="trailing" secondItem="8fa-3s-DxG" secondAttribute="trailing" id="anI-Ge-7Rn"/>
+                <constraint firstItem="QaI-H4-3DG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cXV-9U-vBe"/>
+                <constraint firstAttribute="trailing" secondItem="ort-Pf-cYT" secondAttribute="trailing" id="e7i-SV-1pI"/>
+                <constraint firstAttribute="trailing" secondItem="QaI-H4-3DG" secondAttribute="trailing" id="gbA-ux-FK6"/>
+                <constraint firstItem="QaI-H4-3DG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="186" id="lN5-Wg-dA5"/>
+                <constraint firstItem="8fa-3s-DxG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sTp-dZ-p1o"/>
+                <constraint firstItem="ort-Pf-cYT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tB1-eg-Mov"/>
+                <constraint firstAttribute="trailing" secondItem="ort-Pf-cYT" secondAttribute="trailing" id="taT-cj-lnP"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="R5F-qu-XhO"/>
+                    <exclude reference="e7i-SV-1pI"/>
+                    <exclude reference="tB1-eg-Mov"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_flower.png" width="351" height="291"/>
+    </resources>
+</document>
