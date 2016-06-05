@@ -1,6 +1,8 @@
 # Qinghuairili-Swift
 情怀日历App https://itunes.apple.com/app/id1109727871
 
+![image](https://github.com/metromancn/Qinghuairili-Swift/blob/master/qinghuairli.gif)
+
 ## 祝你好运
 玩得开心，也请记得给我反馈。如果您发现了什么 bug (这简直是必然的)，请直接指出，如果还能附带一个 pull request 修正的话，那真的感激万分！
 
